@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<script src="https://kit.fontawesome.com/ff88250509.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+<style>
+</style>
+
+<body>
+    <nav style="position: fixed; top: 0; right: 0; width: 100%;">
+        <i style="position: absolute; right: 10px;" class="fa-sharp fa-solid fa-bars bar_icon"></i>
+        <div>Paulina Lipinska</div>
+        <ul class="nav__menu">
+            <li id="home">Home</li>
+            <li id="aboutme">About me</li>
+            <li id="gallery">Gallery</li>
+            <li id="contact">Contact</li>
+        </ul>
+        <div class="nav__icons MT20">
+            <i class="fa-brands fa-instagram" id="insta"></i>
+            <i class="fa-regular fa-envelope" id="mail"></i>
+        </div>
+    </nav>
+    <div class="home">
+        <div class="MT150 center_align">
+            <div class="MT100" style="font-size: 45px; color: #00675c;">
+                WHO AM I?
+            </div>
+            <div class="intro MT15">
+                <span style="font-size: 25px;">
+                    Paulina Lipińska <br>
+                </span>
+                English <span class="MT20" style="color:red;">instructor</span> and<br>
+                Language <span style="color: rgb(96, 96, 225);">consultant</span>
+            </div>
+            <button class="contact_btn">Contact me</button>
+        </div>
+
+        <div class="MT150 center_align">
+            <img class="imgs" id="roundpic" src="round_pic.png">
+        </div>
+    </div>
+    <div class="about" id="about_title" style="padding: 0 50px;">
+        <div class="aboutme">
+            <div class="center_align MT50" style="font-size: 2em;">ABOUT ME</div>
+            <hr>
+            <div class="MT30" style="color: var(--green-accent-color); font-size: 1.8em;">
+                I am .....
+            </div>
+            <div style="margin-top: 18px; font-size: 21px;">
+                a meticulous, organized and attentive person. <br><br>
+                I am also not afraid of working under time pressure and stress. <br>
+                Thanks to good time organization and planning skills,
+                I perform the tasks entrusted to me in a timely and conscientious manner. <br>
+                <br>
+                Moreover, I am a person who wants to learn and develop. <br>
+                I believe that my enthusiasm and total commitment to work can be fully used.
+            </div>
+        </div>
+        
+        <div class="expedu">
+            <div class="MT40" style="color: var(--green-accent-color); font-size: 1.8em;">
+                Experience & Education
+            </div>
+            <div class="exp_list">
+                <ul>
+                    <li>
+                        MARKETER and CONSULTANT in EC2 (South Korea)
+                        <br>- Research & Consulting
+                    </li>
+                    <li class="exp_li">
+                        10.2020-03.2021
+                    </li>
+                    <li>
+                        INTERN in health&beauty company Meditamin global (South Korea)
+                        <br>- Content marketing & Translation
+
+                    </li>
+                    <li class="exp_li">
+                        03.2021-09.2021
+                    </li>
+                    <li>
+                        ENGLISH TEACHER (South Korea)
+                        <br>- Private tutoring
+                    </li>
+                    <li class="exp_li">
+                        03.2021-10.2022
+                    </li>
+                    <li>
+                        Ajou University (South Korea)
+                        <br>- Master of International Business (English)
+                    </li>
+                    <li class="exp_li">
+                        03.2019-02.2021
+                    </li>
+                    <li>
+                        University of Gdańsk (Poland)
+                        <br>- Bachelor of International and European Business Law and EU Administration (English)
+                    </li>
+                    <li class="exp_li">
+                        10.2014-02.2017
+                    </li>
+                    <li>
+                        MARKETER and CONSULTANT in EC2 (South Korea)
+                        <br>- Research & Consulting
+                    </li>
+                    <li class="exp_li">
+                        10.2020-03.2021
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="center_align MT50" style="font-size: 2em;">
+                GALLERY
+            </div>
+            <hr>
+            <div class="photo_list">
+                <img src="gallery01.jpg" style="width: 100%;">
+                <img src="gallery02.jpg" style="width: 100%;">
+                <img src="gallery03.jpg" style="width: 100%;">
+                <img src="gallery04.jpg" style="width: 100%;">
+                <img src="gallery05.jpg" style="width: 100%;">
+                <img src="gallery06.jpg" style="width: 100%;">
+            </div>
+        </div>
+        <div class="contact">
+            <div class="center_align MT50" id="contact_menu" style="font-size: 2em;">
+                CONTACT
+            </div>
+            <hr>
+            <div class="MT30">
+                    <div id="git" style="font-size: 2.5em; color: #00675c;">
+                        Get in touch
+                    </div>
+                    <div class="git_text MT20">
+                        Have a question about me? <br>
+                        Feel free to contact me!
+                    </div>
+                    <div class="MT30" style="font-size: 22px; display: flex; align-items: flex-end;">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        <span>
+                            &nbsp;paulipinska.enpl@gmail.com
+                        </span>
+                    </div>
+    
+                    <div style="font-size: 22px; margin-top: 15px; display:flex; align-items: flex-end;">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        <span>
+                            &nbsp; +48 603-604-306
+                        </span>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 100px; font-size: 23px; text-align: left;">
+                    <div>
+                        <div class="MT30">
+                            Full name
+                        </div>
+                        <div class="MT15">
+                            <input type="text" class="text__btn" placeholder=" Write your name" id="fullName">
+                        </div>
+                        <div class="MT20">
+                            E-mail
+                        </div>
+                        <div class="MT15">
+                            <input type="text" id="email_id" placeholder=" Write your email" class="text__btn" pattern="[a-zA-Z0-9._+-]+@[a-zA-Z0-9._+-]+\.[a-zA-Z0-9.]+\.?[a-zA-Z0-9]*">
+                        </div>
+                        <div class="MT20">
+                            What can I help you with?
+                        </div>
+                        <div class="MT15">
+                            <textarea class="text__btn" id="message" placeholder="Please write a message" style="height: 8em;"></textarea>
+                            <!-- <textarea id="message" class="blanks" style="width: 100%; font-family: 'Mulish', sans-serif; width: 600px; height: 100px; font-size: 20px;" placeholder=" Please write a message"></textarea> -->
+                        </div>
+                        <div style="text-align: right;">
+                            <button onclick="sendMail();" class="contact_btn" style="width: 100%;">submit</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+<script>
+    
+</script>
+</html>
